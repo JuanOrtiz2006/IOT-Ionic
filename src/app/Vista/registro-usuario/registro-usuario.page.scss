@@ -18,21 +18,24 @@
 .adorno {
   overflow: visible;
   position: relative;
-  top: -10%;
+  margin-top: -5%;
 }
-
 .adorno2 {
   display: none;
+  position: relative;
+  left: -32%;
+  margin-top: 67%;
+  height: 71%;
+  width: 165%;
 }
 
 /* Imagen de Usuario */
 img {
   position: relative;
-  top: -85%;
-  left: 27%;
+  margin-top: -30%;
+  margin-left: 30%;
   width: 45%;
-  height: 70%;
-  margin-bottom: 0.5%;
+  height: 200%;
   display: block;
   border-radius: 100%;
   background: #343434;
@@ -43,9 +46,10 @@ img {
 .login-box {
   position: absolute;
   top: 420%; /* Se recomienda ajustar esto de acuerdo a tu diseño */
-  left: 50%;
+  margin-left: 48%;
   width: 90%;
   padding: 40px;
+  margin-top: 30%;
   transform: translate(-50%, -50%);
   background: rgba(35, 32, 32, 0.987);
   box-sizing: border-box;
@@ -138,249 +142,36 @@ img {
 /* Media Queries */
 @media screen and (min-width: 600px) and (min-height: 300px) {
   .adorno {
-    top: -60%;
+    margin-top: -15%;
   }
   img {
-    top: -225%;
-    left: 37%;
-    width: 25%;
-    height: 50%;
+    margin-top: -28%;
+    margin-left: 35%;
+    width: 30%;
+    height: 200%;
     margin-bottom: 2%;
   }
   .login-box {
-    top: -3500%;
-    width: 80%;
-  }
-  .login-box .user-box input {
-    padding: 3%;
-    margin-top: -5%;
-    margin-bottom: 3%;
-  }
-  .login-box form a {
-    margin-top: 2%;
-    margin-bottom: -5%;
-  }
+    margin-top: -10%;
+    }
+    .login-box form a {
+      margin: -2%;
+    }
 }
 
-@media screen and (min-width: 700px) and (min-height: 1000px) {
-  .adorno {
-    top: -30%;
-  }
-  img {
-    top: -90%;
-    left: 30%;
-    width: 45%;
-    height: 50%;
-  }
-  .login-box {
-    top: -2000%;
-    width: 80%;
-  }
-  .login-box .user-box input {
-    padding: 5%;
-    margin-bottom: 6%;
-  }
-  .login-box .user-box label {
-    font-size: 200%;
-  }
-  .login-box form a {
-    margin-top: 2%;
-    margin-bottom: 5%;
-    font-size: 200%;
-  }
-  .adorno2 {
-    display: flex;
-    position: relative;
-    left: -65%;
-    top: -10%;
-    height: 60%;
-    width: 240%;
+@media screen and (min-height: 700px) {
+  .adorno{
+    margin-top: -10%;
   }
 }
-
-@media screen and (min-width: 800px) {
-  .adorno {
-    top: -30%;
-  }
-  img {
-    top: -60%;
-    left: 23%;
-    width: 55%;
-    height: 50%;
-  }
-  .login-box {
-    top: -2000%;
-    width: 90%;
-  }
-  .login-box .user-box input {
-    padding: 5%;
-    margin-bottom: 6%;
-  }
-  .login-box .user-box label {
-    font-size: 200%;
-  }
-  .login-box form a {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 200%;
-  }
-  .adorno2 {
-    display: flex;
-    position: relative;
-    left: -63%;
-    top: -1%;
-    height: 60%;
-    width: 240%;
-  }
-}
-
-@media screen and (min-width: 800px) and (min-height: 1000px) {
-  .adorno {
-    top: -10%;
-  }
-  img {
-    top: -70%;
-    left: 27%;
-    width: 45%;
-    height: 50%;
-  }
-  .login-box {
-    top: -1600%;
-    width: 80%;
-  }
-  .login-box .user-box input {
-    padding: 3%;
-    margin: 1%;
-    margin-bottom: 3%;
-  }
-  .login-box .user-box label {
-    font-size: 200%;
-  }
-  .login-box form a {
-    margin-top: 5%;
-    font-size: 200%;
-  }
-}
-
 @media screen and (min-height: 800px) {
-  .adorno {
-    top: 1%;
-  }
-  img {
-    top: -60%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-  }
-  .login-box {
-    top: -300%;
-    width: 80%;
-  }
-  .login-box .user-box input {
-    padding: 1%;
-    margin: 3%;
-    margin-bottom: 3%;
-  }
-  .login-box .user-box label {
-    font-size: 100%;
-  }
-  .adorno2 {
-      display: flex;
-      position: absolute;
-      left: -65%;
-      top: 1000%;
-      height: 4000%;
-      width: 240%;
+  .adorno2{
+    display: flex;
+    
   }
 }
 @media screen and (min-height: 900px) {
-  .adorno {
-    top: 1%;
-  }
-  img {
-    top: -60%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-  }
-  .login-box {
-    top: -300%;
-    width: 80%;
-  }
-  .login-box .user-box input {
-    padding: 1%;
-    margin: 3%;
-    margin-bottom: 10%;
-  }
-  .login-box .user-box label {
-    font-size: 100%;
-  }
-  .adorno2 {
-      display: flex;
-      position: absolute;
-      left: -70%;
-      top: 1500%;
-      height: 4000%;
-      width: 240%;
-  }
-}
-
-@media screen and (min-width: 900px) and (min-height: 400px) {
-  .adorno {
-    top: -60%;
-  }
-  img {
-    top: -240%;
-    left: 37%;
-    width: 25%;
-    height: 50%;
-  }
-  .login-box {
-    top: -5200%;
-    width: 80%;
-  }
-  .login-box .user-box input {
-    padding: 3%;
-    margin-top: -5%;
-    margin-bottom: 3%;
-  }
-  .login-box .user-box label {
-    font-size: 100%;
-  }
-  .login-box form a {
-    margin-top: 2%;
-    margin-top: -5%;
-    margin-bottom: -5%;
-    font-size: 100%;
-  }
-}
-
-@media screen and (min-width: 1000px) and (min-height: 600px) {
-  .adorno {
-    top: -50%;
-  }
-  img {
-    top: -200%;
-    left: 40%;
-    width: 25%;
-    height: 50%;
-    margin-bottom: 1%;
-  }
-  .login-box {
-    top: -5600%;
-    width: 80%;
-  }
-  .login-box .user-box input {
-    padding: 3%;
-    margin-bottom: 3%;
-  }
-  .login-box .user-box label {
-    font-size: 150%;
-  }
-  .login-box form a {
-    margin-top: 2%;
-    margin: 5%;
-    margin-bottom: 1%;
-    font-size: 150%;
+  .adorno{
+    margin-top: 0%;
   }
 }
